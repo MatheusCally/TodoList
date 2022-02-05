@@ -1,0 +1,29 @@
+.input-task{
+    background: #AF7EEB;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.input-task-label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    /* text-align: center; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 53px;
+    padding-right: 53px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }

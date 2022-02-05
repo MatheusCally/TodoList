@@ -1,0 +1,25 @@
+.delete-all{
+    background: rgba(255, 0, 46, 0.92);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.delete-all-label{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+:host{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

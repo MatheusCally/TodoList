@@ -1,0 +1,58 @@
+.todo-list{
+    width: 350px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    /* background-image: url("src/assets/img/bg-task.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+}
+
+.todo-item{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #939CBD;
+    
+}
+
+.todo-item-done{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #939CBD;
+    text-decoration: line-through;
+}
+
+.input-task{
+    display: flex;
+    justify-content: center;
+    
+}
+
+input[type="text"]{
+    outline: none;
+    border: none;
+    width: 80%;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.loading{
+    background-image: url("src/assets/img/bg-task.png");
+}

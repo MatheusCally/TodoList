@@ -1,0 +1,15 @@
+.todo-card{
+    width: 350px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: #E3E9FF;
+    justify-content: center;
+    align-items: center;
+}
