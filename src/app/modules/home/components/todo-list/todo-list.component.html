@@ -3,7 +3,7 @@
         <li *ngFor="let item of taskList; let i = index">
             <input type="checkbox" [(ngModel)]="item.checked">
             <input type="text" [(ngModel)]="item.task" [style.text-decoration]="item.checked ? 'line-through' : 'none'">
-            <button (click)="deleteItemTaskList(i)"><img src="assets/icons/icon-trash.svg/"></button>
+            <button (click)="deleteItemTaskList(i)"><img src="assets/icons/icon-trash.png/"></button>
         </li>
     </ul>
 </div>
