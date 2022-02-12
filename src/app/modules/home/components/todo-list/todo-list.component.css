@@ -56,3 +56,7 @@ ul{
 .loading{
     background-image: url("src/assets/img/bg-task.png");
 }
+
+.trash-icon{
+    width: 20px;
+}
